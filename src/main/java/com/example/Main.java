@@ -22,8 +22,8 @@ public class Main {
 
             engine.eval(SCRIPT_BODY);
 
-            polyglotEngine.close();
             engine.close();
+            polyglotEngine.close();
         }
     }
 
